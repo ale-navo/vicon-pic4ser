@@ -1,0 +1,5 @@
+/**:
+  ros__parameters:
+    pose_topic: "/vicon/WAND/WAND"
+    parent_frame: "map"
+    child_frame: "baselink"
