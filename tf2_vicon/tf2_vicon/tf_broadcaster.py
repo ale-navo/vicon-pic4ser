@@ -49,8 +49,8 @@ class FramePublisher(Node):
         t.header.frame_id = self.parent_frame
         t.child_frame_id = self.child_frame
 
-        t.transform.translation.x = msg.x_trans
-        t.transform.translation.y = msg.y_trans
+        t.transform.translation.x = msg.x_trans/1000
+        t.transform.translation.y = msg.y_trans/1000
         t.transform.translation.z = 0.0
 
         t.transform.rotation.x = msg.x_rot

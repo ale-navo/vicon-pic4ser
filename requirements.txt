@@ -1,1 +1,5 @@
-
+repositories:
+    ale-navo/vicon-pic4ser:
+        type: git
+        url: https://github.com/ale-navo/vicon-pic4ser.git
+        version: master

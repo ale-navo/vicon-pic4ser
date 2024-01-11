@@ -1,5 +1,5 @@
 /**:
   ros__parameters:
-    pose_topic: "/vicon/WAND/WAND"
-    parent_frame: "map"
-    child_frame: "baselink"
+    pose_topic: "/vicon/turtlebot3/turtlebot3"
+    parent_frame: "odom"
+    child_frame: "base_footprint"
